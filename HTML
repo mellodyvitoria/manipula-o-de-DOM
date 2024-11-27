@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Texto com Botão</title>
+</head>
+<body>
+    <h1>Exemplo de Alteração de Texto</h1>
+    <p id="meuParagrafo">Texto original do parágrafo.</p>
+    <button onclick="alterarTexto()">Alterar Texto</button>
+
+    <script>
+        // Função JavaScript que altera o texto do parágrafo
+        function alterarTexto() {
+            // Encontra o elemento pelo ID
+            const paragrafo = document.getElementById("meuParagrafo");
+            // Altera o texto do parágrafo
+            paragrafo.textContent = "O texto foi alterado com sucesso!";
+        }
+    </script>
+</body>
+</html>
